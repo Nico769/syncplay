@@ -33,61 +33,61 @@ it = {
     "room-join-notification" : u"{} è entranto nella stanza: '{}'",  # User
     "left-notification" : u"{} ha abbandonato",  # User
     "left-paused-notification" : u"{} ha abbandonato, {} ha messo in pausa",  # User who left, User who paused
-    "playing-notification" : u"{} is playing '{}' ({})",  # User, file, duration
-    "playing-notification/room-addendum" :  u" in room: '{}'",  # Room
+    "playing-notification" : u"{} sta riproducendo '{}' ({})",  # User, file, duration
+    "playing-notification/room-addendum" :  u" nella stanza: '{}'",  # Room
 
-    "not-all-ready" : u"Not ready: {}", # Usernames
-    "all-users-ready" : u"Everyone is ready ({} users)", #Number of ready users
-    "ready-to-unpause-notification" : u"You are now set as ready - unpause again to unpause",
-    "set-as-ready-notification" : u"You are now set as ready",
-    "set-as-not-ready-notification" : u"You are now set as not ready",
-    "autoplaying-notification" : u"Auto-playing in {}...",  # Number of seconds until playback will start
+    "not-all-ready" : u"Non pronti: {}", # Usernames
+    "all-users-ready" : u"Tutti i partecipanti sono pronti ({} utenti)", #Number of ready users
+    "ready-to-unpause-notification" : u"Ora sei pronto - premi ancora una volta il tasto pausa per riprendere la riproduzione",
+    "set-as-ready-notification" : u"Ora sei pronto",
+    "set-as-not-ready-notification" : u"Non sei pronto",
+    "autoplaying-notification" : u"Riproduzione automatica in {}...",  # Number of seconds until playback will start
 
-    "identifying-as-controller-notification" : u"Identifying as room operator with password '{}'...",
-    "failed-to-identify-as-controller-notification" : u"{} failed to identify as a room operator.",
-    "authenticated-as-controller-notification" : u"{} authenticated as a room operator",
-    "created-controlled-room-notification" : u"Created managed room '{}' with password '{}'. Please save this information for future reference!", # RoomName, operatorPassword
+    "identifying-as-controller-notification" : u"Identificato come gestore della stanza con password '{}'...",
+    "failed-to-identify-as-controller-notification" : u"{} ha fallito l'identificazione come gestore della stanza.",
+    "authenticated-as-controller-notification" : u"{} autenticato come gestore della stanza",
+    "created-controlled-room-notification" : u"Stanza gestita '{}' creata con password '{}'. Per favore salva queste informazioni per futura consultazione!", # RoomName, operatorPassword
 
-    "file-different-notification" : "File you are playing appears to be different from {}'s",  # User
-    "file-differences-notification" : u"Your file differs in the following way(s): {}", # Differences
-    "room-file-differences" : u"File differences: {}", # File differences (filename, size, and/or duration)
-    "file-difference-filename" : u"name",
-    "file-difference-filesize" : u"size",
-    "file-difference-duration" : u"duration",
-    "alone-in-the-room": u"You're alone in the room",
+    "file-different-notification" : "Il file che stai riproducendo sembra essere diverso da quello di {}",  # User
+    "file-differences-notification" : u"Il tuo file possiede le seguenti differenze: {}", # Differences
+    "room-file-differences" : u"Differenze nel tuo file: {}", # File differences (filename, size, and/or duration)
+    "file-difference-filename" : u"nome",
+    "file-difference-filesize" : u"dimensione",
+    "file-difference-duration" : u"durata",
+    "alone-in-the-room": u"Non ci sono altri utenti nella stanza",
 
-    "different-filesize-notification" : u" (their file size is different from yours!)",
-    "userlist-playing-notification" : u"{} is playing:", #Username
-    "file-played-by-notification" : u"File: {} is being played by:",  # File
-    "no-file-played-notification" : u"{} is not playing a file", # Username
-    "notplaying-notification" : "People who are not playing any file:",
-    "userlist-room-notification" :  u"In room '{}':",  # Room
+    "different-filesize-notification" : u" (la dimensione del tuo file è diversa da quella degli altri partecipanti!)",
+    "userlist-playing-notification" : u"{} sta riproducendo:", #Username
+    "file-played-by-notification" : u"File: {} è in riproduzione da:",  # File
+    "no-file-played-notification" : u"{} non sta riproducendo alcun file", # Username
+    "notplaying-notification" : "Partecipanti che non stanno riproducendo alcun file:",
+    "userlist-room-notification" :  u"Nella stanza '{}':",  # Room
     "userlist-file-notification" : "File",
-    "controller-userlist-userflag" : "Operator",
-    "ready-userlist-userflag" : "Ready",
+    "controller-userlist-userflag" : "Gestore",
+    "ready-userlist-userflag" : "Pronto",
 
-    "update-check-failed-notification" : u"Could not automatically check whether Syncplay {} is up to date. Want to visit http://syncplay.pl/ to manually check for updates?", #Syncplay version
-    "syncplay-uptodate-notification" : u"Syncplay is up to date",
-    "syncplay-updateavailable-notification" : u"A new version of Syncplay is available. Do you want to visit the release page?",
+    "update-check-failed-notification" : u"Controllo automatico degli aggiornamenti di Syncplay {} fallito. Vuoi visitare http://syncplay.pl/ per verificare manualmente la presenza di aggiornamenti?", #Syncplay version
+    "syncplay-uptodate-notification" : u"Syncplay è aggiornato",
+    "syncplay-updateavailable-notification" : u"Nuova versione di Syncplay disponibile. Vuoi visitare la pagina delle release?",
 
-    "mplayer-file-required-notification" : "Syncplay using mplayer requires you to provide file when starting",
-    "mplayer-file-required-notification/example" : "Usage example: syncplay [options] [url|path/]filename",
-    "mplayer2-required" : "Syncplay is incompatible with MPlayer 1.x, please use mplayer2 or mpv",
+    "mplayer-file-required-notification" : "Utilizzare Syncplay con mplayer richiede la selezione del file all'avvio",
+    "mplayer-file-required-notification/example" : "Esempio di utilizzo: syncplay [opzioni] [url|percorso/]nomefile",
+    "mplayer2-required" : "Syncplay non è compatibile con MPlayer 1.x, per favore utilizza mplayer2 or mpv",
 
-    "unrecognized-command-notification" : "Unrecognized command",
-    "commandlist-notification" : "Available commands:",
-    "commandlist-notification/room" : "\tr [name] - change room",
-    "commandlist-notification/list" : "\tl - show user list",
-    "commandlist-notification/undo" : "\tu - undo last seek",
-    "commandlist-notification/pause" : "\tp - toggle pause",
-    "commandlist-notification/seek" : "\t[s][+-]time - seek to the given value of time, if + or - is not specified it's absolute time in seconds or min:sec",
-    "commandlist-notification/help" : "\th - this help",
-    "commandlist-notification/toggle" : u"\tt - toggles whether you are ready to watch or not",
-    "commandlist-notification/create" : "\tc [name] - create managed room using name of current room",
-    "commandlist-notification/auth" : "\ta [password] - authenticate as room operator with operator password",
-    "commandlist-notification/chat" : "\tch [message] - send a chat message in a room",
-    "syncplay-version-notification" : "Syncplay version: {}",  # syncplay.version
-    "more-info-notification" : "More info available at: {}",  # projectURL
+    "unrecognized-command-notification" : "Comando non riconosciuto",
+    "commandlist-notification" : "Comandi disponibili:",
+    "commandlist-notification/room" : "\tr [nome] - cambia stanza",
+    "commandlist-notification/list" : "\tl - mostra la lista di utenti",
+    "commandlist-notification/undo" : "\tu - annulla l'ultima ricerca",
+    "commandlist-notification/pause" : "\tp - attiva o disattiva la pausa",
+    "commandlist-notification/seek" : "\t[s][+-]tempo - seek to the given value of time, if + or - is not specified it's absolute time in seconds or min:sec",
+    "commandlist-notification/help" : "\th - questo help",
+    "commandlist-notification/toggle" : u"\tt - attiva o disattiva lo stato 'Pronto'",
+    "commandlist-notification/create" : "\tc [nome] - crea una stanza gestita usando il nome della stanza attuale",
+    "commandlist-notification/auth" : "\ta [password] - autentica come gestore della stanza, utilizzando la password del gestore",
+    "commandlist-notification/chat" : "\tch [message] - invia un messaggio nella chat della stanza",
+    "syncplay-version-notification" : "Versione di Syncplay: {}",  # syncplay.version
+    "more-info-notification" : "Maggiori informazioni a: {}",  # projectURL -- RIPRENDERE QUI
 
     "gui-data-cleared-notification" : "Syncplay has cleared the path and window state data used by the GUI.",
     "language-changed-msgbox-label" : "Language will be changed when you run Syncplay.",
