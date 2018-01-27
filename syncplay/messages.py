@@ -9,6 +9,7 @@ messages = {
            "en": messages_en.en,
            "ru": messages_ru.ru,
            "de": messages_de.de,
+           "it": messages_it.it,
            "CURRENT": None
            }
 
