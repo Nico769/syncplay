@@ -4,6 +4,7 @@ from syncplay import constants
 import messages_en
 import messages_ru
 import messages_de
+import messages_it
 
 messages = {
            "en": messages_en.en,
