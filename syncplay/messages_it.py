@@ -87,51 +87,51 @@ it = {
     "commandlist-notification/auth" : "\ta [password] - autentica come gestore della stanza, utilizzando la password del gestore",
     "commandlist-notification/chat" : "\tch [message] - invia un messaggio nella chat della stanza",
     "syncplay-version-notification" : "Versione di Syncplay: {}",  # syncplay.version
-    "more-info-notification" : "Maggiori informazioni a: {}",  # projectURL -- RIPRENDERE QUI
+    "more-info-notification" : "Maggiori informazioni a: {}",  # projectURL
 
-    "gui-data-cleared-notification" : "Syncplay has cleared the path and window state data used by the GUI.",
-    "language-changed-msgbox-label" : "Language will be changed when you run Syncplay.",
-    "promptforupdate-label" : u"Is it okay for Syncplay to automatically check for updates from time to time?",
+    "gui-data-cleared-notification" : "Syncplay ha resettato i dati, usati dalla GUI, relativi ai percorsi ed allo stato delle finestre.",
+    "language-changed-msgbox-label" : "La lingua sarà cambiata quando avvierai Syncplay.",
+    "promptforupdate-label" : u"Ti piacerebbe che, di tanto in tanto, Syncplay controllasse automaticamente la presenza di aggiornamenti?",
 
-    "vlc-interface-version-mismatch": "You are running version {} of the Syncplay interface module for VLC, but Syncplay is designed to run with version {} and above.  Please refer to the Syncplay User Guide at http://syncplay.pl/guide/ for instructions on how to install syncplay.lua.",  # VLC interface version, VLC interface min version
-    "vlc-interface-oldversion-warning": "Warning: Syncplay detected that an old version version of the Syncplay interface module for VLC was installed in the VLC directory. Please refer to the Syncplay User Guide at http://syncplay.pl/guide/ for instructions on how to install syncplay.lua.",
-    "vlc-interface-not-installed": "Warning: The Syncplay interface module for VLC was not found in the VLC directory. As such, if you are running VLC 2.0 then VLC will use the syncplay.lua module contained within the Syncplay directory, but this will mean that other custom interface scripts and extensions will not work. Please refer to the Syncplay User Guide at http://syncplay.pl/guide/ for instructions on how to install syncplay.lua.",
-    "media-player-latency-warning": u"Warning: The media player took {} seconds to respond. If you experience syncing issues then close applications to free up system resources, and if that doesn't work then try a different media player.", # Seconds to respond
-    "mpv-unresponsive-error": u"mpv has not responded for {} seconds so appears to have malfunctioned. Please restart Syncplay.", # Seconds to respond
+    "vlc-interface-version-mismatch": "Stai eseguendo la versione {} del modulo di interfaccia per VLC di Syncplay, ma Syncplay è progettato per essere utilizzato con la versione {} o superiore. Per favore, fai riferimento alla User Guide di Syncplay presso http://syncplay.pl/guide/ per istruzioni su come installare syncplay.lua.",  # VLC interface version, VLC interface min version
+    "vlc-interface-oldversion-warning": "Attenzione: Syncplay ha rilevato una vecchia versione del modulo di interfaccia per VLC di Syncplay installata nella cartella di VLC. Per favore, fai riferimento alla User Guide di Syncplay presso http://syncplay.pl/guide/ per istruzioni su come installare syncplay.lua.",
+    "media-player-latency-warning": u"Attenzione: il media player ha impiegato {} secondi per rispondere. Se stai avendo problemi di sincronizzazione, chiudi delle applicazioni per liberare le risorse di sistema e, se ciò non dovesse avere alcun effetto, prova un altro media player.", # Seconds to respond
+    "vlc-interface-not-installed": "Attenzione: il modulo di interfaccia per VLC di Syncplay non è stato trovato nella cartella di VLC. Se stai utilizzando VLC 2.0, VLC userà il modulo syncplay.lua contenuto nella cartella di Syncplay, ma ciò significa che altri custom script di interfaccia ed estensioni non funzioneranno. Per favore, fai riferimento alla User Guide di Syncplay presso http://syncplay.pl/guide/ per istruzioni su come installare syncplay.lua.",
+    "mpv-unresponsive-error": u"mpv non ha risposto per {} secondi, quindi sembra non funzionare correttamente. Per favore, riavvia Syncplay.", # Seconds to respond
 
     # Client prompts
-    "enter-to-exit-prompt" : "Press enter to exit\n",
+    "enter-to-exit-prompt" : "Premi Invio per uscire\n",
 
     # Client errors
-    "missing-arguments-error" : "Some necessary arguments are missing, refer to --help",
-    "server-timeout-error" : "Connection with server timed out",
-    "mpc-slave-error" : "Unable to start MPC in slave mode!",
-    "mpc-version-insufficient-error" : "MPC version not sufficient, please use `mpc-hc` >= `{}`",
-    "mpc-be-version-insufficient-error" : "MPC version not sufficient, please use `mpc-be` >= `{}`",
-    "mpv-version-error" : "Syncplay is not compatible with this version of mpv. Please use a different version of mpv (e.g. Git HEAD).",
-    "player-file-open-error" : "Player failed opening file",
-    "player-path-error" : "Player path is not set properly. Supported players are: mpv, VLC, MPC-HC, MPC-BE and mplayer2",
-    "hostname-empty-error" : "Hostname can't be empty",
-    "empty-error" : "{} can't be empty",  # Configuration
-    "media-player-error": "Media player error: \"{}\"",  # Error line
-    "unable-import-gui-error": "Could not import GUI libraries. If you do not have PySide installed then you will need to install it for the GUI to work.",
+    "missing-arguments-error" : "Alcuni argomenti obbligatori non sono stati trovati. Fai riferimento a --help",
+    "server-timeout-error" : "Connessione col server scaduta",
+    "mpc-slave-error" : "Non è possibile avviare MPC in modalità slave!",
+    "mpc-version-insufficient-error" : "Versione di MPC non sufficiente, per favore usa `mpc-hc` >= `{}`",
+    "mpc-be-version-insufficient-error" : "Versione di MPC non sufficiente, per favore usa `mpc-be` >= `{}`",
+    "mpv-version-error" : "Syncplay non è compatibile con questa versione di mpv. Per favore usa un'altra versione di mpv (es. Git HEAD).",
+    "player-file-open-error" : "Il player non è riuscito ad aprire il file",
+    "player-path-error" : "Il path del player non è configurato correttamente. I player supportati sono: mpv, VLC, MPC-HC, MPC-BE e mplayer2",
+    "hostname-empty-error" : "Hostname non può essere vuoto",
+    "empty-error" : "{} non può esssere vuoto",  # Configuration
+    "media-player-error": "Errore media player: \"{}\"",  # Error line
+    "unable-import-gui-error": "Non è possibile importare le librerie GUI. Hai bisogno di PySide per poter utilizzare la GUI.",
 
-    "arguments-missing-error" : "Some necessary arguments are missing, refer to --help",
+    "arguments-missing-error" : "Alcuni argomenti obbligatori non sono stati trovati. Fai riferimento a --help",
 
-    "unable-to-start-client-error" : "Unable to start client",
+    "unable-to-start-client-error" : "Impossibile avviare il client",
 
-    "player-path-config-error": "Player path is not set properly. Supported players are: mpv, VLC, MPC-HC, MPC-BE and mplayer2.",
-    "no-file-path-config-error" :"File must be selected before starting your player",
-    "no-hostname-config-error": "Hostname can't be empty",
-    "invalid-port-config-error" : "Port must be valid",
-    "empty-value-config-error" : "{} can't be empty", # Config option
+    "player-path-config-error": "Il path del player non è configurato correttamente. I player supportati sono: mpv, VLC, MPC-HC, MPC-BE e mplayer2.",
+    "no-file-path-config-error" :"Un file deve essere selezionato prima di avviare il player",
+    "no-hostname-config-error": "Hostname non può essere vuoto",
+    "invalid-port-config-error" : "La porta deve essere valida",
+    "empty-value-config-error" : "{} non può essere vuoto", # Config option
 
-    "not-json-error" : "Not a json encoded string\n",
-    "hello-arguments-error" : "Not enough Hello arguments\n",
-    "version-mismatch-error" : "Mismatch between versions of client and server\n",
-    "vlc-failed-connection": "Failed to connect to VLC. If you have not installed syncplay.lua and are using the latest verion of VLC then please refer to http://syncplay.pl/LUA/ for instructions.",
-    "vlc-failed-noscript": "VLC has reported that the syncplay.lua interface script has not been installed. Please refer to http://syncplay.pl/LUA/ for instructions.",
-    "vlc-failed-versioncheck": "This version of VLC is not supported by Syncplay.",
+    "not-json-error" : "Non è una stringa con codifica JSON\n",
+    "hello-arguments-error" : "Argomenti Hello non sufficienti\n",
+    "version-mismatch-error" : "La versione del client è diversa da quella del server\n",
+    "vlc-failed-connection": "Impossibile collegarsi a VLC. Se non hai installato syncplay.lua e stai usando l'ultima versione di VLC, fai riferimento a http://syncplay.pl/LUA/ per istruzioni.",
+    "vlc-failed-noscript": "VLC ha segnalato che lo script di interfaccia syncplay.lua non è stato installato. Per favore, fai riferimento a http://syncplay.pl/LUA/ per istruzioni.",
+    "vlc-failed-versioncheck": "Questa versione di VLC non è supportata da Syncplay.",
 
     "feature-sharedPlaylists" : u"shared playlists", # used for not-supported-by-server-error
     "feature-chat" : u"chat", # used for not-supported-by-server-error
