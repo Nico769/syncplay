@@ -133,91 +133,91 @@ it = {
     "vlc-failed-noscript": u"VLC ha segnalato che lo script di interfaccia syncplay.lua non è stato installato. Per favore, fai riferimento a http://syncplay.pl/LUA/ per istruzioni.",
     "vlc-failed-versioncheck": u"Questa versione di VLC non è supportata da Syncplay.",
 
-    "feature-sharedPlaylists" : u"shared playlists", # used for not-supported-by-server-error
+    "feature-sharedPlaylists" : u"playlist condivise", # used for not-supported-by-server-error
     "feature-chat" : u"chat", # used for not-supported-by-server-error
-    "feature-readiness" : u"readiness", # used for not-supported-by-server-error
-    "feature-managedRooms" : u"managed rooms", # used for not-supported-by-server-error
+    "feature-readiness" : u"prontezza", # used for not-supported-by-server-error
+    "feature-managedRooms" : u"stanze gestite", # used for not-supported-by-server-error
 
-    "not-supported-by-server-error" : u"The {} feature is not supported by this server..", #feature
-    "shared-playlists-not-supported-by-server-error" : u"The shared playlists feature may not be supported by the server. To ensure that it works correctly requires a server running Syncplay  {}+, but the server is running Syncplay {}.", #minVersion, serverVersion
-    "shared-playlists-disabled-by-server-error" : u"The shared playlist feature has been disabled in the server configuration. To use this feature you will need to connect to a different server.",
+    "not-supported-by-server-error" : u"La feature {} non è supportata da questo server..", #feature
+    "shared-playlists-not-supported-by-server-error" : u"La feature playlist condivise potrebbe non essere supportata dal server. Si necessita di un server avente Syncplay {}+ per assicurarsi che essa funzioni correttamente, tuttavia il server sta utilizzando Syncplay {}.", #minVersion, serverVersion
+    "shared-playlists-disabled-by-server-error" : u"La feature playlist condivise è stata disabilitata nella configurazione del server. Per utilizzarla, dovrai collegarti ad un altro server.",
 
-    "invalid-seek-value" : u"Invalid seek value",
-    "invalid-offset-value" : u"Invalid offset value",
+    "invalid-seek-value" : u"Valore di ricerca non valido",
+    "invalid-offset-value" : u"Valore di offset non valido",
 
-    "switch-file-not-found-error" : u"Could not switch to file '{0}'. Syncplay looks in specified media directories.", # File not found
-    "folder-search-timeout-error" : u"The search for media in media directories was aborted as it took too long to search through '{}'. This will occur if you select a folder with too many sub-folders in your list of media folders to search through. For automatic file switching to work again please select File->Set Media Directories in the menu bar and remove this directory or replace it with an appropriate sub-folder. If the folder is actually fine then you can re-enable it by selecting File->Set Media Directories and pressing 'OK'.", #Folder
-    "folder-search-first-file-timeout-error" : u"The search for media in '{}' was aborted as it took too long to access the directory. This could happen if it is a network drive or if you configure your drive to spin down after a period of inactivity. For automatic file switching to work again please go to File->Set Media Directories and either remove the directory or resolve the issue (e.g. by changing power saving settings).", #Folder
-    "added-file-not-in-media-directory-error" : u"You loaded a file in '{}' which is not a known media directory. You can add this as a media directory by selecting File->Set Media Directories in the menu bar.", #Folder
-    "no-media-directories-error" : u"No media directories have been set. For shared playlist and file switching features to work properly please select File->Set Media Directories and specify where Syncplay should look to find media files.",
-    "cannot-find-directory-error" : u"Could not find media directory '{}'. To update your list of media directories please select File->Set Media Directories from the menu bar and specify where Syncplay should look to find media files.",
+    "switch-file-not-found-error" : u"Impossibile passare al file '{0}'. Syncplay analizza le cartelle media specificate.", # File not found
+    "folder-search-timeout-error" : u"La ricerca nelle cartelle media è stata interrotta siccome l'analisi di '{}' sta impiegando troppo tempo. Ciò accade se si aggiunge una cartella con troppe sottocartelle nella lista di ricerca. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Media nella barra dei menù e rimuovi questa cartella o sostituiscila con una sottocartella appropriata. Se la cartella è idonea, è possibile riabilitarla selezionando File->Imposta Cartelle Media e premendo 'OK'.", #Folder
+    "folder-search-first-file-timeout-error" : u"La ricerca dei media in '{}' è stata interrotta siccome l'accesso alla cartella sta impiegando troppo tempo. Ciò accade se essa è un disco di rete oppure se hai impostato il blocco della rotazione del disco rigido dopo un certo periodo di inattività. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Media, quindi rimuovi la cartella oppure risolvi il problema (es. cambiando le impostazioni del risparmio energetico).", #Folder
+    "added-file-not-in-media-directory-error" : u"Hai selezionato un file in '{}'. Essa non è una cartella media conosciuta. Puoi aggiungerla come cartella media selezionando File->Imposta Cartella Media nella barra dei menù.", #Folder
+    "no-media-directories-error" : u"Nessuna cartella media è stata configurata. Per permette il corretto funzionamento delle feature playlist condivise e selezione automatica del file, naviga in File->Imposta Cartelle Media e specifica dove Syncplay debba ricercare i file media.",
+    "cannot-find-directory-error" : u"Impossibile trovare la cartella media '{}'. Per aggiornare la lista delle cartelle media seleziona File->Imposta Cartelle Media dalla barra dei menù e specifica dove Syncplay debba ricercare i file media.",
 
-    "failed-to-load-server-list-error" : u"Failed to load public server list. Please visit http://www.syncplay.pl/ in your browser.",
+    "failed-to-load-server-list-error" : u"Impossibile caricare la lista dei server pubblici. Per favore, visita http://www.syncplay.pl/ col tuo browser.",
 
     # Client arguments
-    "argument-description" : 'Solution to synchronize playback of multiple media player instances over the network.',
-    "argument-epilog" : 'If no options supplied _config values will be used',
-    "nogui-argument" : 'show no GUI',
-    "host-argument" : 'server\'s address',
-    "name-argument" : 'desired username',
-    "debug-argument" : 'debug mode',
-    "force-gui-prompt-argument" : 'make configuration prompt appear',
-    "no-store-argument" : 'don\'t store values in .syncplay',
-    "room-argument" : 'default room',
-    "password-argument" : 'server password',
-    "player-path-argument" : 'path to your player executable',
-    "file-argument" : 'file to play',
-    "args-argument" : 'player options, if you need to pass options starting with - prepend them with single \'--\' argument',
-    "clear-gui-data-argument" : 'resets path and window state GUI data stored as QSettings',
-    "language-argument" :'language for Syncplay messages (de/en/ru)',
+    "argument-description" : 'Soluzione per sincronizzare la riproduzione di istanze di media player multiple attraverso la rete.',
+    "argument-epilog" : 'Se non è specificata alcuna opzione saranno utilizzati i valori _config ',
+    "nogui-argument" : 'non mostrare la GUI',
+    "host-argument" : 'indirizzo del server',
+    "name-argument" : 'username desiderato',
+    "debug-argument" : 'modalità debug',
+    "force-gui-prompt-argument" : 'mostra il prompt di configurazione',
+    "no-store-argument" : 'non salva i valori in .syncplay',
+    "room-argument" : 'stanza di default',
+    "password-argument" : 'password del server',
+    "player-path-argument" : 'percorso dell\'eseguibile del tuo player',
+    "file-argument" : 'file da riprodurre',
+    "args-argument" : 'opzioni del player, se hai bisogno di passare opzioni che iniziano con - anteponile con un singolo \'--\'',
+    "clear-gui-data-argument" : 'resetta il percorso e i dati inerenti allo stato della GUI salvati come QSettings',
+    "language-argument" :'lingua per i messaggi di Syncplay (de/en/ru)',
 
-    "version-argument" : 'prints your version',
-    "version-message" : u"You're using Syncplay version {} ({})",
+    "version-argument" : 'mostra la tua versione',
+    "version-message" : u"Stai usando la versione di Syncplay {} ({})",
 
     # Client labels
-    "config-window-title" : u"Syncplay configuration",
+    "config-window-title" : u"Configurazione di Syncplay",
 
-    "connection-group-title" : u"Connection settings",
-    "host-label" : u"Server address: ",
-    "name-label" :  u"Username (optional):",
-    "password-label" :  u"Server password (if any):",
-    "room-label" : u"Default room: ",
+    "connection-group-title" : u"Impostazioni di connessione",
+    "host-label" : u"Indirizzo del server: ",
+    "name-label" :  u"Username (opzionale):",
+    "password-label" :  u"Password del server(se necessaria):",
+    "room-label" : u"Stanza di default: ",
 
-    "media-setting-title" : u"Media player settings",
-    "executable-path-label" : u"Path to media player:",
-    "media-path-label" : u"Path to video (optional):",
-    "player-arguments-label" : u"Player arguments (if any):",
-    "browse-label" : u"Browse",
-    "update-server-list-label" : u"Update list",
+    "media-setting-title" : u"Impostazioni del media player",
+    "executable-path-label" : u"Percorso del media player:",
+    "media-path-label" : u"Percorso del video (opzionale):",
+    "player-arguments-label" : u"Argomenti del player (se necessari):",
+    "browse-label" : u"Sfoglia",
+    "update-server-list-label" : u"Aggiorna lista",
 
-    "more-title" : u"Show more settings",
-    "never-rewind-value" : u"Never",
+    "more-title" : u"Mostra altre impostazioni",
+    "never-rewind-value" : u"Mai",
     "seconds-suffix" : u" secs",
-    "privacy-sendraw-option" : u"Send raw",
-    "privacy-sendhashed-option" : u"Send hashed",
-    "privacy-dontsend-option" : u"Don't send",
-    "filename-privacy-label" : u"Filename information:",
-    "filesize-privacy-label" : u"File size information:",
-    "checkforupdatesautomatically-label" : u"Check for Syncplay updates automatically",
-    "slowondesync-label" : u"Slow down on minor desync (not supported on MPC-HC/BE)",
-    "rewindondesync-label" : u"Rewind on major desync (recommended)",
-    "fastforwardondesync-label" : u"Fast-forward if lagging behind (recommended)",
-    "dontslowdownwithme-label" : u"Never slow down or rewind others (experimental)",
-    "pausing-title" : u"Pausing",
-    "pauseonleave-label" : u"Pause when user leaves (e.g. if they are disconnected)",
-    "readiness-title" : u"Initial readiness state",
-    "readyatstart-label" : u"Set me as 'ready to watch' by default",
-    "forceguiprompt-label" : u"Don't always show the Syncplay configuration window", # (Inverted)
-    "showosd-label" : u"Enable OSD Messages",
+    "privacy-sendraw-option" : u"Invio semplice",
+    "privacy-sendhashed-option" : u"Invio criptato",
+    "privacy-dontsend-option" : u"Non inviare",
+    "filename-privacy-label" : u"Nome del file:",
+    "filesize-privacy-label" : u"Dimensione del file:",
+    "checkforupdatesautomatically-label" : u"Controlla automaticamente gli aggiornamenti di Syncplay",
+    "slowondesync-label" : u"Rallenta in caso di desync minimo (non supportato su MPC-HC/BE)",
+    "rewindondesync-label" : u"Riavvolgi in caso di desync grave (consigliato)",
+    "fastforwardondesync-label" : u"Avanzamento rapido in caso di ritardo (consigliato)",
+    "dontslowdownwithme-label" : u"Non rallentare o riavvolgere gli altri utenti (sperimentale)",
+    "pausing-title" : u"In pausa",
+    "pauseonleave-label" : u"In pausa quando gli utenti abbandonano (es. disconnessione)",
+    "readiness-title" : u"Stato iniziale di Pronto",
+    "readyatstart-label" : u"Impostami sempre su 'pronto a guardare'",
+    "forceguiprompt-label" : u"Non mostrare ogni volta la finestra di configurazione di Syncplay", # (Inverted)
+    "showosd-label" : u"Abilita i messaggi OSD",
 
-    "showosdwarnings-label" : u"Include warnings (e.g. when files are different, users not ready)",
-    "showsameroomosd-label" : u"Include events in your room",
-    "shownoncontrollerosd-label" : u"Include events from non-operators in managed rooms",
-    "showdifferentroomosd-label" : u"Include events in other rooms",
-    "showslowdownosd-label" :u"Include slowing down / reverting notifications",
-    "language-label" : u"Language:",
-    "automatic-language" : u"Default ({})", # Default language
-    "showdurationnotification-label" : u"Warn about media duration mismatches",
+    "showosdwarnings-label" : u"Includi gli avvisi (es. file differenti, utenti non pronti)",
+    "showsameroomosd-label" : u"Includi gli eventi della tua stanza",
+    "shownoncontrollerosd-label" : u"Includi gli eventi dei non gestori nelle stanze gestite",
+    "showdifferentroomosd-label" : u"Includi gli eventi di altre stanze",
+    "showslowdownosd-label" :u"Includi le notifiche di rallentamento / riavvolgimento",
+    "language-label" : u"Lingua:",
+    "automatic-language" : u"Predefinita ({})", # Default language
+    "showdurationnotification-label" : u"Avvisa in caso di mancata corrispondenza della durata del file",
     "basics-label" : u"Basics",
     "readiness-label" : u"Play/Pause",
     "misc-label" : u"Misc",
