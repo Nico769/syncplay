@@ -136,6 +136,7 @@ it = {
     "feature-sharedPlaylists" : u"playlist condivise", # used for not-supported-by-server-error
     "feature-chat" : u"chat", # used for not-supported-by-server-error
     "feature-readiness" : u"prontezza", # used for not-supported-by-server-error
+    "feature-readiness" : u"prontezza", # used for not-supported-by-server-error # TODO needs to be reviewed
     "feature-managedRooms" : u"stanze gestite", # used for not-supported-by-server-error
 
     "not-supported-by-server-error" : u"La feature {} non è supportata da questo server..", #feature
@@ -202,6 +203,7 @@ it = {
     "slowondesync-label" : u"Rallenta in caso di desync minimo (non supportato su MPC-HC/BE)",
     "rewindondesync-label" : u"Riavvolgi in caso di desync grave (consigliato)",
     "fastforwardondesync-label" : u"Avanzamento rapido in caso di ritardo (consigliato)",
+    "fastforwardondesync-label" : u"Avanzamento rapido in caso di lag (consigliato)",
     "dontslowdownwithme-label" : u"Non rallentare o riavvolgere gli altri utenti (sperimentale)",
     "pausing-title" : u"In pausa",
     "pauseonleave-label" : u"In pausa quando gli utenti abbandonano (es. disconnessione)",
