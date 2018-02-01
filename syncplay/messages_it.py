@@ -121,7 +121,7 @@ it = {
     "unable-to-start-client-error" : u"Impossibile avviare il client",
 
     "player-path-config-error": u"Il path del player non è configurato correttamente. I player supportati sono: mpv, VLC, MPC-HC, MPC-BE e mplayer2.",
-    "no-file-path-config-error" :u"Un file deve essere selezionato prima di avviare il player",
+    "no-file-path-config-error" :u"Deve essere selezionato un file prima di avviare il player",
     "no-hostname-config-error": u"Hostname non può essere vuoto",
     "invalid-port-config-error" : u"La porta deve essere valida",
     "empty-value-config-error" : u"{} non può essere vuoto", # Config option
