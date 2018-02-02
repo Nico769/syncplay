@@ -157,7 +157,7 @@ it = {
 
     # Client arguments
     "argument-description" : 'Soluzione per sincronizzare la riproduzione di istanze di media player multiple attraverso la rete.',
-    "argument-epilog" : 'Se non è specificata alcuna opzione saranno utilizzati i valori _config ',
+    "argument-epilog" : 'Se non è specificata alcuna opzione saranno utilizzati i valori _config',
     "nogui-argument" : 'non mostrare la GUI',
     "host-argument" : 'indirizzo del server',
     "name-argument" : 'username desiderato',
@@ -301,45 +301,45 @@ it = {
     "exit-menu-label" : u"&Esci",
     "advanced-menu-label" : u"&Avanzate",
     "window-menu-label" : u"&Finestra",
-    "setoffset-menu-label" : u"Set &offset",
-    "createcontrolledroom-menu-label" : u"&Create managed room",
-    "identifyascontroller-menu-label" : u"&Identify as room operator",
-    "settrusteddomains-menu-label" : u"Set &trusted domains",
-    "addtrusteddomain-menu-label" : u"Add {} as trusted domain", # Domain
+    "setoffset-menu-label" : u"Imposta &offset",
+    "createcontrolledroom-menu-label" : u"&Crea stanza gestita",
+    "identifyascontroller-menu-label" : u"&Identificati come operatore della stanza",
+    "settrusteddomains-menu-label" : u"Imposta &domini Trusted",
+    "addtrusteddomain-menu-label" : u"Aggiungi {} come dominio Trusted", # Domain
 
-    "playback-menu-label" : u"&Playback",
+    "playback-menu-label" : u"&Riproduzione",
 
-    "help-menu-label" : u"&Help",
-    "userguide-menu-label" : u"Open user &guide",
-    "update-menu-label" : u"Check for &update",
+    "help-menu-label" : u"&Aiuto",
+    "userguide-menu-label" : u"Apri guida &utente",
+    "update-menu-label" : u"Controlla nuovi &aggiornamenti",
 
     #About dialog
-    "about-menu-label": u"&About Syncplay",
-    "about-dialog-title": u"About Syncplay",
-    "about-dialog-release": u"Version {} release {} on {}",
-    "about-dialog-license-text" : u"Licensed under the Apache&nbsp;License,&nbsp;Version 2.0",
-    "about-dialog-license-button": u"License",
-    "about-dialog-dependencies": u"Dependencies",
+    "about-menu-label": u"&Informazioni su Syncplay",
+    "about-dialog-title": u"Informazioni su Syncplay",
+    "about-dialog-release": u"Versione {} release {} su {}",
+    "about-dialog-license-text" : u"Licenza Apache&nbsp;License,&nbsp;Version 2.0",
+    "about-dialog-license-button": u"Licenza",
+    "about-dialog-dependencies": u"Dipendenze",
 
-    "setoffset-msgbox-label" : u"Set offset",
-    "offsetinfo-msgbox-label" : u"Offset (see http://syncplay.pl/guide/ for usage instructions):",
+    "setoffset-msgbox-label" : u"Imposta offset",
+    "offsetinfo-msgbox-label" : u"Offset (vedi http://syncplay.pl/guide/ per istruzioni):",
 
-    "promptforstreamurl-msgbox-label" : u"Open media stream URL",
+    "promptforstreamurl-msgbox-label" : u"Apri media stream URL",
     "promptforstreamurlinfo-msgbox-label" : u"Stream URL",
 
-    "addfolder-label" : u"Add folder",
+    "addfolder-label" : u"Aggiungi cartella",
 
-    "adduris-msgbox-label" : u"Add URLs to playlist (one per line)",
-    "editplaylist-msgbox-label" : u"Set playlist (one per line)",
-    "trusteddomains-msgbox-label" : u"Domains it is okay to automatically switch to (one per line)",
+    "adduris-msgbox-label" : u"Aggiungi gli URL alla playlist (uno per riga)",
+    "editplaylist-msgbox-label" : u"Imposta playlist (una per riga)",
+    "trusteddomains-msgbox-label" : u"Domini a cui è lecito passare automaticamente (uno per riga)",
 
-    "createcontrolledroom-msgbox-label" : u"Create managed room",
-    "controlledroominfo-msgbox-label" : u"Enter name of managed room\r\n(see http://syncplay.pl/guide/ for usage instructions):",
+    "createcontrolledroom-msgbox-label" : u"Crea stanza gestita",
+    "controlledroominfo-msgbox-label" : u"Inserisci il nome della stanza gestita\r\n(vedi http://syncplay.pl/guide/ per istruzioni):",
 
-    "identifyascontroller-msgbox-label" : u"Identify as room operator",
-    "identifyinfo-msgbox-label" : u"Enter operator password for this room\r\n(see http://syncplay.pl/guide/ for usage instructions):",
+    "identifyascontroller-msgbox-label" : u"Identificati come operatore della stanza",
+    "identifyinfo-msgbox-label" : u"Inserisci la password dell'operatore per questa stanza\r\n(vedi http://syncplay.pl/guide/ per istruzioni):",
 
-    "public-server-msgbox-label" : u"Select the public server for this viewing session",
+    "public-server-msgbox-label" : u"Seleziona il server pubblico per questa sessione",
 
     "megabyte-suffix" : u" MB",
 
@@ -412,67 +412,67 @@ it = {
     "sendmessage-tooltip" : u"Send message to room",
 
     # In-userlist notes (GUI)
-    "differentsize-note" : u"Different size!",
-    "differentsizeandduration-note" : u"Different size and duration!",
-    "differentduration-note" : u"Different duration!",
-    "nofile-note" : u"(No file being played)",
+    "differentsize-note" : u"Dimensione diversa!",
+    "differentsizeandduration-note" : u"Durata e dimensione diversi!",
+    "differentduration-note" : u"Durata diversa!",
+    "nofile-note" : u"(Nessun file in riproduzione)",
 
     # Server messages to client
-    "new-syncplay-available-motd-message" : u"<NOTICE> You are using Syncplay {} but a newer version is available from http://syncplay.pl </NOTICE>",  # ClientVersion
+    "new-syncplay-available-motd-message" : u"<NOTICE> Stai usando Syncplay {} ma una nuova versione è disponibile presso http://syncplay.pl </NOTICE>",  # ClientVersion
 
     # Server notifications
-    "welcome-server-notification" : u"Welcome to Syncplay server, ver. {0}",  # version
-    "client-connected-room-server-notification" : u"{0}({2}) connected to room '{1}'",  # username, host, room
-    "client-left-server-notification" : u"{0} left server",  # name
-    "no-salt-notification" : u"PLEASE NOTE: To allow room operator passwords generated by this server instance to still work when the server is restarted, please add the following command line argument when running the Syncplay server in the future: --salt {}", #Salt
+    "welcome-server-notification" : u"Benvenuto nel server Syncplay, ver. {0}",  # version
+    "client-connected-room-server-notification" : u"{0}({2}) connesso alla stanza '{1}'",  # username, host, room
+    "client-left-server-notification" : u"{0} ha abbandonato il server",  # name
+    "no-salt-notification" : u"NOTA BENE: In futuro, per consentire il corretto funzionamento delle password generate da questo server (per le stanze gestite) quando viene riavviato, aggiungere da linea di comando il seguente argomento prima di eseguire Syncplay server: --salt {}", #Salt
 
 
     # Server arguments
-    "server-argument-description" : 'Solution to synchronize playback of multiple MPlayer and MPC-HC/BE instances over the network. Server instance',
-    "server-argument-epilog" : 'If no options supplied _config values will be used',
-    "server-port-argument" : 'server TCP port',
-    "server-password-argument" : 'server password',
-    "server-isolate-room-argument" : 'should rooms be isolated?',
-    "server-salt-argument" : u"random string used to generate managed room passwords",
-    "server-disable-ready-argument" : u"disable readiness feature",
-    "server-motd-argument": u"path to file from which motd will be fetched",
-    "server-chat-argument" : u"Should chat be disabled?",
-    "server-chat-maxchars-argument" : u"Maximum number of characters in a chat message (default is {})", # Default number of characters
-    "server-messed-up-motd-unescaped-placeholders": u"Message of the Day has unescaped placeholders. All $ signs should be doubled ($$).",
-    "server-messed-up-motd-too-long": u"Message of the Day is too long - maximum of {} chars, {} given.",
+    "server-argument-description" : 'Soluzione per sincronizzare la riproduzione di istanze multiple di MPlayer e MPC-HC/BE attraverso la rete. Istanza del server',
+    "server-argument-epilog" : 'Se non è specificata alcuna opzione saranno utilizzati i valori _config',
+    "server-port-argument" : 'Porta TCP del server',
+    "server-password-argument" : 'password del server',
+    "server-isolate-room-argument" : 'le stanze devono essere isolate?',
+    "server-salt-argument" : u"usare stringhe randomizzate per generare le password delle stanze gestite",
+    "server-disable-ready-argument" : u"disabilita la funzionalità prontezza", # TODO readiness needs a better translation
+    "server-motd-argument": u"percorso del file da cui verrà letto il motd",
+    "server-chat-argument" : u"disabiliare la chat?",
+    "server-chat-maxchars-argument" : u"Numero massimo di caratteri in un messaggio di chat (default è {})", # Default number of characters
+    "server-messed-up-motd-unescaped-placeholders": u"Il Message of the Day ha dei caratteri non 'escaped'. Tutti i simboli $ devono essere doppi ($$).",
+    "server-messed-up-motd-too-long": u"Il Message of the Day è troppo lungo - numero massimo di caratteri è {}, {} trovati.",
 
     # Server errors
-    "unknown-command-server-error" : u"Unknown command {}",  # message
-    "not-json-server-error" : u"Not a json encoded string {}",  # message
-    "not-known-server-error" : u"You must be known to server before sending this command",
-    "client-drop-server-error" : u"Client drop: {} -- {}",  # host, error
-    "password-required-server-error" : u"Password required",
-    "wrong-password-server-error" : u"Wrong password supplied",
-    "hello-server-error" : u"Not enough Hello arguments",
+    "unknown-command-server-error" : u"Comando non riconosciuto {}",  # message
+    "not-json-server-error" : u"Non è una stringa in codifica json {}",  # message
+    "not-known-server-error" : u"Devi essere riconosciuto dal server prima di poter inviare questo comando",
+    "client-drop-server-error" : u"Il client è caduto: {} -- {}",  # host, error
+    "password-required-server-error" : u"La password è necessaria",
+    "wrong-password-server-error" : u"La password inserita è errata",
+    "hello-server-error" : u"Non ci sono abbastanza argomenti Hello",
 
     # Playlists
-    "playlist-selection-changed-notification" :  u"{} changed the playlist selection", # Username
-    "playlist-contents-changed-notification" : u"{} updated the playlist", # Username
-    "cannot-find-file-for-playlist-switch-error" : u"Could not find file {} in media directories for playlist switch!", # Filename
-    "cannot-add-duplicate-error" : u"Could not add second entry for '{}' to the playlist as no duplicates are allowed.", #Filename
-    "cannot-add-unsafe-path-error" : u"Could not automatically load {} because it is not on a trusted domain. You can switch to the URL manually by double clicking it in the playlist, and add trusted domains via File->Advanced->Set Trusted Domains. If you right click on a URL then you can add its domain as a trusted domain via the context menu.", # Filename
-    "sharedplaylistenabled-label" : u"Enable shared playlists",
-    "removefromplaylist-menu-label" : u"Remove from playlist",
-    "shuffleremainingplaylist-menu-label" : u"Shuffle remaining playlist",
-    "shuffleentireplaylist-menuu-label" : u"Shuffle entire playlist",
-    "undoplaylist-menu-label" : u"Undo last change to playlist",
-    "addfilestoplaylist-menu-label" : u"Add file(s) to bottom of playlist",
-    "addurlstoplaylist-menu-label" : u"Add URL(s) to bottom of playlist",
-    "editplaylist-menu-label": u"Edit playlist",
+    "playlist-selection-changed-notification" :  u"{} ha cambiato la selezione della playlist", # Username
+    "playlist-contents-changed-notification" : u"{} ha aggiornato la playlist", # Username
+    "cannot-find-file-for-playlist-switch-error" : u"Impossibile trovare il file {} nelle cartelle media per permettere il cambio di playlist!", # Filename
+    "cannot-add-duplicate-error" : u"Impossibile aggiungere una seconda voce per '{}' alla playlist. Duplicati non ammessi.", #Filename
+    "cannot-add-unsafe-path-error" : u"Impossibile caricare automaticamente {} perchè non è presente nei domini Trusted. Puoi passare all'inserimento manuale facendo doppio click sull'URL nella playlist, e aggiungerlo ai domini Trusted tramite File->Avanzate->Imposta domini Trusted. Cliccando col tasto destro del mouse su un URL puoi aggiungere il suo dominio come dominio Trusted tramite il menù contestuale.", # Filename
+    "sharedplaylistenabled-label" : u"Abilita le playlist condivise",
+    "removefromplaylist-menu-label" : u"Rimuovi dalla playlist",
+    "shuffleremainingplaylist-menu-label" : u"Shuffle le playlist rimanenti",
+    "shuffleentireplaylist-menuu-label" : u"Shuffle l'intera playlist",
+    "undoplaylist-menu-label" : u"Annulla l'ultima modifica alla playlist",
+    "addfilestoplaylist-menu-label" : u"Aggiungi i file alla fine della playlist",
+    "addurlstoplaylist-menu-label" : u"Aggiungi gli URL alla fine della playlist",
+    "editplaylist-menu-label": u"Modifica playlist",
 
-    "open-containing-folder": u"Open folder containing this file",
-    "addusersfiletoplaylist-menu-label" : u"Add {} file to playlist", # item owner indicator
-    "addusersstreamstoplaylist-menu-label" : u"Add {} stream to playlist", # item owner indicator
-    "openusersstream-menu-label" : u"Open {} stream", # [username]'s
-    "openusersfile-menu-label" : u"Open {} file", # [username]'s
-    "item-is-yours-indicator" : u"your", # Goes with addusersfiletoplaylist/addusersstreamstoplaylist
-    "item-is-others-indicator" : u"{}'s", # username - goes with addusersfiletoplaylist/addusersstreamstoplaylist
+    "open-containing-folder": u"Apri la cartella contenente questo file",
+    "addusersfiletoplaylist-menu-label" : u"Aggiungi il file {} alla playlist", # item owner indicator # TODO needs testing
+    "addusersstreamstoplaylist-menu-label" : u"Aggiungi lo stream {} alla playlist", # item owner indicator # TODO needs testing
+    "openusersstream-menu-label" : u"Apri lo stream di {}", # [username]'s
+    "openusersfile-menu-label" : u"Apri il file di {}", # [username]'s
+    "item-is-yours-indicator" : u"tuo", # Goes with addusersfiletoplaylist/addusersstreamstoplaylist # TODO needs testing
+    "item-is-others-indicator" : u"di {}", # username - goes with addusersfiletoplaylist/addusersstreamstoplaylist # TODO needs testing
 
-    "playlist-instruction-item-message" : u"Drag file here to add it to the shared playlist.",
-    "sharedplaylistenabled-tooltip" : u"Room operators can add files to a synced playlist to make it easy for everyone to watching the same thing. Configure media directories under 'Misc'.",
+    "playlist-instruction-item-message" : u"Trascina qui i file per aggiungerli alla playlist condivisa.",
+    "sharedplaylistenabled-tooltip" : u"Gli operatori della stanza possono aggiunge i file ad una playlist sincronizzata per garantire che tutti i partecipanti stiano guardando la stessa cosa. Configura le cartelle media alla voce 'Miscellanea'.",
 }
