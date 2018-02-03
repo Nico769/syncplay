@@ -28,7 +28,7 @@ it = {
 
     "current-offset-notification" : u"Offset corrente: {} secondi",  # Offset
 
-    "media-directory-list-updated-notification" : u"Le cartelle media di Syncplay sono state aggiornate.",
+    "media-directory-list-updated-notification" : u"Le cartelle multimediali di Syncplay sono state aggiornate.",
 
     "room-join-notification" : u"{} è entranto nella stanza: '{}'",  # User
     "left-notification" : u"{} ha abbandonato",  # User
@@ -146,12 +146,12 @@ it = {
     "invalid-seek-value" : u"Valore di ricerca non valido",
     "invalid-offset-value" : u"Valore di offset non valido",
 
-    "switch-file-not-found-error" : u"Impossibile passare al file '{0}'. Syncplay analizza le cartelle media specificate.", # File not found
-    "folder-search-timeout-error" : u"La ricerca nelle cartelle media è stata interrotta siccome l'analisi di '{}' sta impiegando troppo tempo. Ciò accade se si aggiunge una cartella con troppe sottocartelle nella lista di ricerca. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Media nella barra dei menù e rimuovi questa cartella o sostituiscila con una sottocartella appropriata. Se la cartella è idonea, è possibile riabilitarla selezionando File->Imposta Cartelle Media e premendo 'OK'.", #Folder
-    "folder-search-first-file-timeout-error" : u"La ricerca dei media in '{}' è stata interrotta siccome l'accesso alla cartella sta impiegando troppo tempo. Ciò accade se essa è un disco di rete oppure se hai impostato il blocco della rotazione del disco rigido dopo un certo periodo di inattività. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Media, quindi rimuovi la cartella oppure risolvi il problema (es. cambiando le impostazioni del risparmio energetico).", #Folder
-    "added-file-not-in-media-directory-error" : u"Hai selezionato un file in '{}'. Essa non è una cartella media conosciuta. Puoi aggiungerla come cartella media selezionando File->Imposta Cartella Media nella barra dei menù.", #Folder
-    "no-media-directories-error" : u"Nessuna cartella media è stata configurata. Per permette il corretto funzionamento delle feature playlist condivise e selezione automatica del file, naviga in File->Imposta Cartelle Media e specifica dove Syncplay debba ricercare i file media.",
-    "cannot-find-directory-error" : u"Impossibile trovare la cartella media '{}'. Per aggiornare la lista delle cartelle media seleziona File->Imposta Cartelle Media dalla barra dei menù e specifica dove Syncplay debba ricercare i file media.",
+    "switch-file-not-found-error" : u"Impossibile passare al file '{0}'. Syncplay analizza le cartelle multimediali specificate.", # File not found
+    "folder-search-timeout-error" : u"La ricerca nelle cartelle multimediali è stata interrotta siccome l'analisi di '{}' sta impiegando troppo tempo. Ciò accade se si aggiunge una cartella con troppe sottocartelle nella lista di ricerca. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Multimediali nella barra dei menù e rimuovi questa cartella o sostituiscila con una sottocartella appropriata. Se la cartella è idonea, è possibile riabilitarla selezionando File->Imposta Cartelle Multimediali e premendo 'OK'.", #Folder
+    "folder-search-first-file-timeout-error" : u"La ricerca dei media in '{}' è stata interrotta siccome l'accesso alla cartella sta impiegando troppo tempo. Ciò accade se essa è un disco di rete oppure se hai impostato il blocco della rotazione del disco rigido dopo un certo periodo di inattività. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Multimediali, quindi rimuovi la cartella oppure risolvi il problema (es. cambiando le impostazioni del risparmio energetico).", #Folder
+    "added-file-not-in-media-directory-error" : u"Hai selezionato un file in '{}'. Essa non è una cartella multimediale conosciuta. Puoi aggiungerla come cartella multimediale selezionando File->Imposta Cartella Multimediale nella barra dei menù.", #Folder
+    "no-media-directories-error" : u"Nessuna cartella multimediale è stata configurata. Per permette il corretto funzionamento delle feature playlist condivise e selezione automatica dei file, naviga in File->Imposta Cartelle Multimediali e specifica dove Syncplay debba ricercare i file multimediali.",
+    "cannot-find-directory-error" : u"Impossibile trovare la cartella multimediale '{}'. Per aggiornare la lista delle cartelle multimediali seleziona File->Imposta Cartelle Multimediali dalla barra dei menù e specifica dove Syncplay debba ricercare i file multimediali.",
 
     "failed-to-load-server-list-error" : u"Impossibile caricare la lista dei server pubblici. Per favore, visita http://www.syncplay.pl/ col tuo browser.",
 
@@ -225,7 +225,7 @@ it = {
     "misc-label" : u"Miscellanea",
     "core-behaviour-title" : u"Comportamento principale della stanza",
     "syncplay-internals-title" : u"Comportamento Syncplay",
-    "syncplay-mediasearchdirectories-title" : u"Cartelle contenenti file media (un solo percorso per riga)",
+    "syncplay-mediasearchdirectories-title" : u"Cartelle contenenti i file multimediali (un solo percorso per riga)",
     "sync-label" : u"Sincronizzazione",
     "sync-otherslagging-title" : u"Se gli altri partecipanti laggano...",
     "sync-youlaggging-title" : u"Se stai laggando...",
@@ -292,12 +292,12 @@ it = {
     "notifications-heading-label" : u"Notifiche",
     "userlist-heading-label" : u"Lista di chi sta riproducendo cosa",
 
-    "browseformedia-label" : u"Seleziona i file media",
+    "browseformedia-label" : u"Seleziona i file multimediali",
 
     "file-menu-label" : u"&File", # & precedes shortcut key
-    "openmedia-menu-label" : u"&Apri file media",
+    "openmedia-menu-label" : u"&Apri file multimediali",
     "openstreamurl-menu-label" : u"Apri &media stream URL",
-    "setmediadirectories-menu-label" : u"Imposta &cartelle media",
+    "setmediadirectories-menu-label" : u"Imposta &cartelle multimediali",
     "exit-menu-label" : u"&Esci",
     "advanced-menu-label" : u"&Avanzate",
     "window-menu-label" : u"&Finestra",
@@ -453,7 +453,7 @@ it = {
     # Playlists
     "playlist-selection-changed-notification" : u"{} ha cambiato la selezione della playlist", # Username
     "playlist-contents-changed-notification" : u"{} ha aggiornato la playlist", # Username
-    "cannot-find-file-for-playlist-switch-error" : u"Impossibile trovare il file {} nelle cartelle media per permettere il cambio di playlist!", # Filename
+    "cannot-find-file-for-playlist-switch-error" : u"Impossibile trovare il file {} nelle cartelle multimediali per permettere il cambio di playlist!", # Filename
     "cannot-add-duplicate-error" : u"Impossibile aggiungere una seconda voce per '{}' alla playlist. Duplicati non ammessi.", #Filename
     "cannot-add-unsafe-path-error" : u"Impossibile caricare automaticamente {} perchè non è presente nei domini Trusted. Puoi passare all'inserimento manuale facendo doppio click sull'URL nella playlist, e aggiungerlo ai domini Trusted tramite File->Avanzate->Imposta domini Trusted. Cliccando col tasto destro del mouse su un URL puoi aggiungere il suo dominio come dominio Trusted tramite il menù contestuale.", # Filename
     "sharedplaylistenabled-label" : u"Abilita le playlist condivise",
@@ -474,5 +474,5 @@ it = {
     "item-is-others-indicator" : u"di {}", # username - goes with addusersfiletoplaylist/addusersstreamstoplaylist # TODO needs testing
 
     "playlist-instruction-item-message" : u"Trascina qui i file per aggiungerli alla playlist condivisa.",
-    "sharedplaylistenabled-tooltip" : u"Gli operatori della stanza possono aggiunge i file ad una playlist sincronizzata per garantire che tutti i partecipanti stiano guardando la stessa cosa. Configura le cartelle media alla voce 'Miscellanea'.",
+    "sharedplaylistenabled-tooltip" : u"Gli operatori della stanza possono aggiunge i file ad una playlist sincronizzata per garantire che tutti i partecipanti stiano guardando la stessa cosa. Configura le cartelle multimediali alla voce 'Miscellanea'.",
 }
