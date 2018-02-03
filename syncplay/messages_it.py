@@ -156,23 +156,23 @@ it = {
     "failed-to-load-server-list-error" : u"Impossibile caricare la lista dei server pubblici. Per favore, visita http://www.syncplay.pl/ col tuo browser.",
 
     # Client arguments
-    "argument-description" : 'Soluzione per sincronizzare la riproduzione di istanze di media player multiple attraverso la rete.',
-    "argument-epilog" : 'Se non è specificata alcuna opzione saranno utilizzati i valori _config',
-    "nogui-argument" : 'non mostrare la GUI',
-    "host-argument" : 'indirizzo del server',
-    "name-argument" : 'username desiderato',
-    "debug-argument" : 'modalità debug',
-    "force-gui-prompt-argument" : 'mostra il prompt di configurazione',
-    "no-store-argument" : 'non salva i valori in .syncplay',
-    "room-argument" : 'stanza di default',
-    "password-argument" : 'password del server',
-    "player-path-argument" : 'percorso dell\'eseguibile del tuo player',
-    "file-argument" : 'file da riprodurre',
-    "args-argument" : 'opzioni del player, se hai bisogno di passare opzioni che iniziano con - anteponile con un singolo \'--\'',
-    "clear-gui-data-argument" : 'resetta il percorso e i dati inerenti allo stato della GUI salvati come QSettings',
-    "language-argument" :'lingua per i messaggi di Syncplay (de/en/ru)',
+    "argument-description" : u'Soluzione per sincronizzare la riproduzione di istanze di media player multiple attraverso la rete.',
+    "argument-epilog" : u'Se non è specificata alcuna opzione saranno utilizzati i valori _config',
+    "nogui-argument" : u'non mostrare la GUI',
+    "host-argument" : u'indirizzo del server',
+    "name-argument" : u'username desiderato',
+    "debug-argument" : u'modalità debug',
+    "force-gui-prompt-argument" : u'mostra il prompt di configurazione',
+    "no-store-argument" : u'non salva i valori in .syncplay',
+    "room-argument" : u'stanza di default',
+    "password-argument" : u'password del server',
+    "player-path-argument" : u'percorso dell\'eseguibile del tuo player',
+    "file-argument" : u'file da riprodurre',
+    "args-argument" : u'opzioni del player, se hai bisogno di passare opzioni che iniziano con - anteponile con un singolo \'--\'',
+    "clear-gui-data-argument" : u'resetta il percorso e i dati inerenti allo stato della GUI salvati come QSettings',
+    "language-argument" : u'lingua per i messaggi di Syncplay (de/en/ru)',
 
-    "version-argument" : 'mostra la tua versione',
+    "version-argument" : u'mostra la tua versione',
     "version-message" : u"Stai usando la versione di Syncplay {} ({})",
 
     # Client labels
@@ -180,8 +180,8 @@ it = {
 
     "connection-group-title" : u"Impostazioni di connessione",
     "host-label" : u"Indirizzo del server: ",
-    "name-label" :  u"Username (opzionale):",
-    "password-label" :  u"Password del server(se necessaria):",
+    "name-label" : u"Username (opzionale):",
+    "password-label" : u"Password del server(se necessaria):",
     "room-label" : u"Stanza di default: ",
 
     "media-setting-title" : u"Impostazioni del media player",
@@ -216,7 +216,7 @@ it = {
     "showsameroomosd-label" : u"Includi gli eventi della tua stanza",
     "shownoncontrollerosd-label" : u"Includi gli eventi dei non gestori nelle stanze gestite",
     "showdifferentroomosd-label" : u"Includi gli eventi di altre stanze",
-    "showslowdownosd-label" :u"Includi le notifiche di rallentamento / riavvolgimento",
+    "showslowdownosd-label" : u"Includi le notifiche di rallentamento / riavvolgimento",
     "language-label" : u"Lingua:",
     "automatic-language" : u"Predefinita ({})", # Default language
     "showdurationnotification-label" : u"Avvisa in caso di mancata corrispondenza della durata del file",
@@ -428,11 +428,11 @@ it = {
 
 
     # Server arguments
-    "server-argument-description" : 'Soluzione per sincronizzare la riproduzione di istanze multiple di MPlayer e MPC-HC/BE attraverso la rete. Istanza del server',
-    "server-argument-epilog" : 'Se non è specificata alcuna opzione saranno utilizzati i valori _config',
-    "server-port-argument" : 'Porta TCP del server',
-    "server-password-argument" : 'password del server',
-    "server-isolate-room-argument" : 'le stanze devono essere isolate?',
+    "server-argument-description" : u'Soluzione per sincronizzare la riproduzione di istanze multiple di MPlayer e MPC-HC/BE attraverso la rete. Istanza del server',
+    "server-argument-epilog" : u'Se non è specificata alcuna opzione saranno utilizzati i valori _config',
+    "server-port-argument" : u'Porta TCP del server',
+    "server-password-argument" : u'password del server',
+    "server-isolate-room-argument" : u'le stanze devono essere isolate?',
     "server-salt-argument" : u"usare stringhe randomizzate per generare le password delle stanze gestite",
     "server-disable-ready-argument" : u"disabilita la funzionalità prontezza", # TODO readiness needs a better translation
     "server-motd-argument": u"percorso del file da cui verrà letto il motd",
@@ -451,7 +451,7 @@ it = {
     "hello-server-error" : u"Non ci sono abbastanza argomenti Hello",
 
     # Playlists
-    "playlist-selection-changed-notification" :  u"{} ha cambiato la selezione della playlist", # Username
+    "playlist-selection-changed-notification" : u"{} ha cambiato la selezione della playlist", # Username
     "playlist-contents-changed-notification" : u"{} ha aggiornato la playlist", # Username
     "cannot-find-file-for-playlist-switch-error" : u"Impossibile trovare il file {} nelle cartelle media per permettere il cambio di playlist!", # Filename
     "cannot-add-duplicate-error" : u"Impossibile aggiungere una seconda voce per '{}' alla playlist. Duplicati non ammessi.", #Filename
