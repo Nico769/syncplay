@@ -46,7 +46,7 @@ it = {
     "identifying-as-controller-notification" : u"Identificato come gestore della stanza con password '{}'...",
     "failed-to-identify-as-controller-notification" : u"{} ha fallito l'identificazione come gestore della stanza.",
     "authenticated-as-controller-notification" : u"{} autenticato come gestore della stanza",
-    "created-controlled-room-notification" : u"Stanza gestita '{}' creata con password '{}'. Per favore salva queste informazioni per futura consultazione!", # RoomName, operatorPassword
+    "created-controlled-room-notification" : u"Stanza gestita '{}' creata con password '{}'. Per favore salva queste informazioni per una consultazione futura!", # RoomName, operatorPassword
 
     "file-different-notification" : u"Il file che stai riproducendo sembra essere diverso da quello di {}",  # User
     "file-differences-notification" : u"Il tuo file possiede le seguenti differenze: {}", # Differences
@@ -147,11 +147,11 @@ it = {
     "invalid-offset-value" : u"Valore di offset non valido",
 
     "switch-file-not-found-error" : u"Impossibile passare al file '{0}'. Syncplay analizza le cartelle multimediali specificate.", # File not found
-    "folder-search-timeout-error" : u"La ricerca nelle cartelle multimediali è stata interrotta siccome l'analisi di '{}' sta impiegando troppo tempo. Ciò accade se si aggiunge una cartella con troppe sottocartelle nella lista di ricerca. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Multimediali nella barra dei menù e rimuovi questa cartella o sostituiscila con una sottocartella appropriata. Se la cartella è idonea, è possibile riabilitarla selezionando File->Imposta Cartelle Multimediali e premendo 'OK'.", #Folder
-    "folder-search-first-file-timeout-error" : u"La ricerca dei media in '{}' è stata interrotta siccome l'accesso alla cartella sta impiegando troppo tempo. Ciò accade se essa è un disco di rete oppure se hai impostato il blocco della rotazione del disco rigido dopo un certo periodo di inattività. Per riabilitare la selezione automatica dei file seleziona File->Imposta Cartelle Multimediali, quindi rimuovi la cartella oppure risolvi il problema (es. cambiando le impostazioni del risparmio energetico).", #Folder
+    "folder-search-timeout-error" : u"La ricerca nelle cartelle multimediali è stata interrotta siccome l'analisi di '{}' sta impiegando troppo tempo. Ciò accade se si aggiunge una cartella con troppe sottocartelle nella lista di ricerca. Per riabilitare la selezione automatica dei file seleziona File->Imposta cartelle multimediali nella barra dei menù e rimuovi questa cartella o sostituiscila con una sottocartella appropriata. Se la cartella è idonea, è possibile riabilitarla selezionando File->Imposta cartelle multimediali e premendo 'OK'.", #Folder
+    "folder-search-first-file-timeout-error" : u"La ricerca dei media in '{}' è stata interrotta siccome l'accesso alla cartella sta impiegando troppo tempo. Ciò accade se essa è un disco di rete oppure se hai impostato il blocco della rotazione del disco rigido dopo un certo periodo di inattività. Per riabilitare la selezione automatica dei file seleziona File->Imposta cartelle multimediali, quindi rimuovi la cartella oppure risolvi il problema (es. cambiando le impostazioni del risparmio energetico).", #Folder
     "added-file-not-in-media-directory-error" : u"Hai selezionato un file in '{}'. Essa non è una cartella multimediale conosciuta. Puoi aggiungerla come cartella multimediale selezionando File->Imposta Cartella Multimediale nella barra dei menù.", #Folder
-    "no-media-directories-error" : u"Nessuna cartella multimediale è stata configurata. Per permette il corretto funzionamento delle feature playlist condivise e selezione automatica dei file, naviga in File->Imposta Cartelle Multimediali e specifica dove Syncplay debba ricercare i file multimediali.",
-    "cannot-find-directory-error" : u"Impossibile trovare la cartella multimediale '{}'. Per aggiornare la lista delle cartelle multimediali seleziona File->Imposta Cartelle Multimediali dalla barra dei menù e specifica dove Syncplay debba ricercare i file multimediali.",
+    "no-media-directories-error" : u"Nessuna cartella multimediale è stata configurata. Per permette il corretto funzionamento delle feature playlist condivise e selezione automatica dei file, naviga in File->Imposta cartelle multimediali e specifica dove Syncplay debba ricercare i file multimediali.",
+    "cannot-find-directory-error" : u"Impossibile trovare la cartella multimediale '{}'. Per aggiornare la lista delle cartelle multimediali seleziona File->Imposta cartelle multimediali dalla barra dei menù e specifica dove Syncplay debba ricercare i file multimediali.",
 
     "failed-to-load-server-list-error" : u"Impossibile caricare la lista dei server pubblici. Per favore, visita http://www.syncplay.pl/ col tuo browser.",
 
@@ -181,7 +181,7 @@ it = {
     "connection-group-title" : u"Impostazioni di connessione",
     "host-label" : u"Indirizzo del server: ",
     "name-label" : u"Username (opzionale):",
-    "password-label" : u"Password del server(se necessaria):",
+    "password-label" : u"Password del server (se necessaria):",
     "room-label" : u"Stanza di default: ",
 
     "media-setting-title" : u"Impostazioni del media player",
@@ -205,11 +205,11 @@ it = {
     "fastforwardondesync-label" : u"Avanzamento rapido in caso di ritardo (consigliato)",
     "fastforwardondesync-label" : u"Avanzamento rapido in caso di lag (consigliato)",
     "dontslowdownwithme-label" : u"Non rallentare o riavvolgere gli altri utenti (sperimentale)",
-    "pausing-title" : u"In pausa",
+    "pausing-title" : u"Pausa",
     "pauseonleave-label" : u"In pausa quando gli utenti abbandonano (es. disconnessione)",
     "readiness-title" : u"Stato iniziale di Pronto",
     "readyatstart-label" : u"Impostami sempre su 'pronto a guardare'",
-    "forceguiprompt-label" : u"Non mostrare ogni volta la finestra di configurazione di Syncplay", # (Inverted)
+    "forceguiprompt-label" : u"Non mostrare la finestra di configurazione di Syncplay ad ogni apertura", # (Inverted)
     "showosd-label" : u"Abilita i messaggi OSD",
 
     "showosdwarnings-label" : u"Includi gli avvisi (es. file differenti, utenti non pronti)",
@@ -235,7 +235,7 @@ it = {
     "chat-label" : u"Chat",
     "privacy-label" : u"Privacy", # Currently unused, but will be brought back if more space is needed in Misc tab
     "privacy-title" : u"Impostazioni privacy",
-    "unpause-title" : u"Se premi play, imposta il tuo stato su pronto e:",
+    "unpause-title" : u"Premendo play, imposta il tuo stato su pronto e:",
     "unpause-ifalreadyready-option" : u"Riprendi la riproduzione se eri già pronto",
     "unpause-ifothersready-option" : u"Riprendi la riproduzione se eri già pronto o se gli altri partecipanti sono pronti (default)",
     "unpause-ifminusersready-option" : u"Riprendi la riproduzione se eri già pronto o se un numero minimo di partecipanti è pronto",
@@ -244,7 +244,7 @@ it = {
 
     "chat-title" : u"Inserimento messaggi di chat",
     "chatinputenabled-label" : u"Abilita la chat tramite mpv",
-    "chatdirectinput-label" : u"Abilita la chat istantanea (bypassa la necessità di premere Invio per chattare)",
+    "chatdirectinput-label" : u"Abilita la chat istantanea (evita di dover premere Invio per chattare)",
     "chatinputfont-label" : u"Font dell'input della chat",
     "chatfont-label" : u"Imposta font",
     "chatcolour-label" : u"Imposta colore",
@@ -268,12 +268,12 @@ it = {
     "run-label" : u"Avvia Syncplay",
     "storeandrun-label" : u"Salva la configurazione e avvia Syncplay",
 
-    "contact-label" : u"Sentiti libero di inviare una e-mail a <a href=\"mailto:dev@syncplay.pl\"><nobr>dev@syncplay.pl</nobr></a>, chattare tramite il <a href=\"https://webchat.freenode.net/?channels=#syncplay\"><nobr>canale IRC #Syncplay</nobr></a> su irc.freenode.net, <a href=\"https://github.com/Uriziel/syncplay/issues\"><nobr>segnalare un problema</nobr></a> su GitHub, <a href=\"https://www.facebook.com/SyncplaySoftware\"><nobr>mettere like sulla nostra pagina Facebook</nobr></a>, <a href=\"https://twitter.com/Syncplay/\"><nobr>seguirci su Twitter</nobr></a>, o visitare <a href=\"http://syncplay.pl/\"><nobr>http://syncplay.pl/</nobr></a>. NOTA: i messaggi di chat non sono criptati, quindi non usare Syncplay per inviare dati sensibili.",
+    "contact-label" : u"Sentiti libero di inviare una e-mail a <a href=\"mailto:dev@syncplay.pl\"><nobr>dev@syncplay.pl</nobr></a>, chattare tramite il <a href=\"https://webchat.freenode.net/?channels=#syncplay\"><nobr>canale IRC #Syncplay</nobr></a> su irc.freenode.net, <a href=\"https://github.com/Uriziel/syncplay/issues\"><nobr>segnalare un problema</nobr></a> su GitHub, <a href=\"https://www.facebook.com/SyncplaySoftware\"><nobr>lasciare un like sulla nostra pagina Facebook</nobr></a>, <a href=\"https://twitter.com/Syncplay/\"><nobr>seguirci su Twitter</nobr></a>, o visitare <a href=\"http://syncplay.pl/\"><nobr>http://syncplay.pl/</nobr></a>. NOTA: i messaggi di chat non sono criptati, quindi non usare Syncplay per inviare dati sensibili.",
 
     "joinroom-label" : u"Entra nella stanza",
     "joinroom-menu-label" : u"Entra nella stanza {}",
     "seektime-menu-label" : u"Vai a..",
-    "undoseek-menu-label" : u"Annulla Vai a..",
+    "undoseek-menu-label" : u"Annulla vai a..",
     "play-menu-label" : u"Play",
     "pause-menu-label" : u"Pausa",
     "playbackbuttons-menu-label" : u"Mostra i controlli della riproduzione",
