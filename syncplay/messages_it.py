@@ -226,7 +226,7 @@ it = {
     "core-behaviour-title" : u"Comportamento principale della stanza",
     "syncplay-internals-title" : u"Comportamento Syncplay",
     "syncplay-mediasearchdirectories-title" : u"Cartelle contenenti i file multimediali (un solo percorso per riga)",
-    "sync-label" : u"Sincronizzazione",
+    "sync-label" : u"Sync", # don't have better options as the label won't fit in the panel.
     "sync-otherslagging-title" : u"Se gli altri partecipanti laggano...",
     "sync-youlaggging-title" : u"Se stai laggando...",
     "messages-label" : u"Messaggi",
