@@ -221,7 +221,7 @@ it = {
     "automatic-language" : u"Predefinita ({})", # Default language
     "showdurationnotification-label" : u"Avvisa in caso di mancata corrispondenza della durata del file",
     "basics-label" : u"Generali",
-    "readiness-label" : u"Riproduzione/Pausa",
+    "readiness-label" : u"Play/Pausa",
     "misc-label" : u"Miscellanea",
     "core-behaviour-title" : u"Comportamento principale della stanza",
     "syncplay-internals-title" : u"Comportamento Syncplay",
@@ -252,6 +252,7 @@ it = {
     "chat-top-option" : u"In alto",
     "chat-middle-option" : u"Al centro",
     "chat-bottom-option" : u"In basso",
+    "chatoutputheader-label" : u"Output messaggi di chat",
     "chatoutputfont-label": u"Font dell'output della chat",
     "chatoutputenabled-label": u"Abilita l'output della chat nel media player (al momento supporta solo mpv)",
     "chatoutputposition-label": u"Modalità output",
