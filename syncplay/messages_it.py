@@ -80,7 +80,7 @@ it = {
     "commandlist-notification/list" : u"\tl - mostra la lista di utenti",
     "commandlist-notification/undo" : u"\tu - annulla l'ultima ricerca",
     "commandlist-notification/pause" : u"\tp - attiva o disattiva la pausa",
-    "commandlist-notification/seek" : u"\t[s][+-]tempo - seek to the given value of time, if + or - is not specified it's absolute time in seconds or min:sec",
+    "commandlist-notification/seek" : u"\t[s][+-]tempo - salta all'istante di tempo dato, se + o - non è specificato si considera il tempo assoluto in secondi o min:sec",
     "commandlist-notification/help" : u"\th - questo help",
     "commandlist-notification/toggle" : u"\tt - attiva o disattiva lo stato 'Pronto'",
     "commandlist-notification/create" : u"\tc [nome] - crea una stanza gestita usando il nome della stanza attuale",
@@ -135,8 +135,8 @@ it = {
 
     "feature-sharedPlaylists" : u"playlist condivise", # used for not-supported-by-server-error
     "feature-chat" : u"chat", # used for not-supported-by-server-error
-    "feature-readiness" : u"prontezza", # used for not-supported-by-server-error
-    "feature-readiness" : u"prontezza", # used for not-supported-by-server-error # TODO needs to be reviewed
+    "feature-readiness" : u"pronto", # used for not-supported-by-server-error
+    "feature-readiness" : u"pronto", # used for not-supported-by-server-error
     "feature-managedRooms" : u"stanze gestite", # used for not-supported-by-server-error
 
     "not-supported-by-server-error" : u"La feature {} non è supportata da questo server..", #feature
@@ -207,7 +207,7 @@ it = {
     "dontslowdownwithme-label" : u"Non rallentare o riavvolgere gli altri utenti (sperimentale)",
     "pausing-title" : u"Pausa",
     "pauseonleave-label" : u"In pausa quando gli utenti abbandonano (es. disconnessione)",
-    "readiness-title" : u"Stato iniziale di Pronto",
+    "readiness-title" : u"Stato iniziale di 'pronto'",
     "readyatstart-label" : u"Impostami sempre su 'pronto a guardare'",
     "forceguiprompt-label" : u"Non mostrare la finestra di configurazione di Syncplay ad ogni apertura", # (Inverted)
     "showosd-label" : u"Abilita i messaggi OSD",
@@ -346,71 +346,71 @@ it = {
 
     # Tooltips
 
-    "host-tooltip" : u"Hostname or IP to connect to, optionally including port (e.g. syncplay.pl:8999). Only synchronised with people on same server/port.",
-    "name-tooltip" : u"Nickname you will be known by. No registration, so can easily change later. Random name generated if none specified.",
-    "password-tooltip" : u"Passwords are only needed for connecting to private servers.",
-    "room-tooltip" : u"Room to join upon connection can be almost anything, but you will only be synchronised with people in the same room.",
+    "host-tooltip" : u"Hostname o indirizzo IP a cui collegarsi e, se necessaria, includere la porta (es. syncplay.pl:8999). La sincronizzazione avviene solo con gli utenti sullo stesso server/porta.",
+    "name-tooltip" : u"Il nickname con cui sarai riconosciuto. Nessuna registrazione necessaria, cosi potrai sempre cambiarlo. Se lasciato vuoto, viene scelto un nome casuale.",
+    "password-tooltip" : u"La password è necessaria solo in caso di connessione a server privati.",
+    "room-tooltip" : u"La stanza in cui entrare dopo la connessione. Può assumere qualsiasi nome, ma ricorda che sarai sincronizzato solo con gli utenti nella stessa stanza.",
 
-    "executable-path-tooltip" : u"Location of your chosen supported media player (mpv, VLC, MPC-HC/BE or mplayer2).",
-    "media-path-tooltip" : u"Location of video or stream to be opened. Necessary for mplayer2.",
-    "player-arguments-tooltip" : u"Additional command line arguments / switches to pass on to this media player.",
-    "mediasearcdirectories-arguments-tooltip" : u"Directories where Syncplay will search for media files, e.g. when you are using the click to switch feature. Syncplay will look recursively through sub-folders.",
+    "executable-path-tooltip" : u"Percorso del media player desiderato (scegliere tra mpv, VLC, MPC-HC/BE or mplayer2).",
+    "media-path-tooltip" : u"Percorso del video o stream da aprire. Necessario per mplayer2.",
+    "player-arguments-tooltip" : u"Argomenti da linea di comando aggiuntivi da passare al media player scelto.",
+    "mediasearcdirectories-arguments-tooltip" : u"Cartelle dove Syncplay ricercherà i file multimediali, es. quando usi la feature click to switch. Syncplay ricercherà ricorsivamente nelle sottocartelle.",
 
-    "more-tooltip" : u"Display less frequently used settings.",
-    "filename-privacy-tooltip" : u"Privacy mode for sending currently playing filename to server.",
-    "filesize-privacy-tooltip" : u"Privacy mode for sending size of currently playing file to server.",
-    "privacy-sendraw-tooltip" : u"Send this information without obfuscation. This is the default option with most functionality.",
-    "privacy-sendhashed-tooltip" : u"Send a hashed version of the information, making it less visible to other clients.",
-    "privacy-dontsend-tooltip" : u"Do not send this information to the server. This provides for maximum privacy.",
-    "checkforupdatesautomatically-tooltip" : u"Regularly check with the Syncplay website to see whether a new version of Syncplay is available.",
-    "slowondesync-tooltip" : u"Reduce playback rate temporarily when needed to bring you back in sync with other viewers. Not supported on MPC-HC/BE.",
-    "dontslowdownwithme-tooltip" : u"Means others do not get slowed down or rewinded if your playback is lagging. Useful for room operators.",
-    "pauseonleave-tooltip" : u"Pause playback if you get disconnected or someone leaves from your room.",
-    "readyatstart-tooltip" : u"Set yourself as 'ready' at start (otherwise you are set as 'not ready' until you change your readiness state)",
-    "forceguiprompt-tooltip" : u"Configuration dialogue is not shown when opening a file with Syncplay.", # (Inverted)
-    "nostore-tooltip" : u"Run Syncplay with the given configuration, but do not permanently store the changes.", # (Inverted)
-    "rewindondesync-tooltip" : u"Jump back when needed to get back in sync. Disabling this option can result in major desyncs!",
-    "fastforwardondesync-tooltip" : u"Jump forward when out of sync with room operator (or your pretend position if 'Never slow down or rewind others' enabled).",
-    "showosd-tooltip" : u"Sends Syncplay messages to media player OSD.",
-    "showosdwarnings-tooltip" : u"Show warnings if playing different file, alone in room, users not ready, etc.",
-    "showsameroomosd-tooltip" : u"Show OSD notifications for events relating to room user is in.",
-    "shownoncontrollerosd-tooltip" : u"Show OSD notifications for events relating to non-operators who are in managed rooms.",
-    "showdifferentroomosd-tooltip" : u"Show OSD notifications for events relating to room user is not in.",
-    "showslowdownosd-tooltip" : u"Show notifications of slowing down / reverting on time difference.",
-    "showdurationnotification-tooltip" : u"Useful for when a segment in a multi-part file is missing, but can result in false positives.",
-    "language-tooltip" : u"Language to be used by Syncplay.",
-    "unpause-always-tooltip" : u"If you press unpause it always sets you as ready and unpause, rather than just setting you as ready.",
-    "unpause-ifalreadyready-tooltip" : u"If you press unpause when not ready it will set you as ready - press unpause again to unpause.",
-    "unpause-ifothersready-tooltip" : u"If you press unpause when not ready, it will only upause if others are ready.",
-    "unpause-ifminusersready-tooltip" : u"If you press unpause when not ready, it will only unpause if others are ready and minimum users threshold is met.",
-    "trusteddomains-arguments-tooltip" : u"Domains that it is okay for Syncplay to automatically switch to when shared playlists is enabled.",
+    "more-tooltip" : u"Mostra le impostazioni usate meno frequentemente.",
+    "filename-privacy-tooltip" : u"Modalità privacy per inviare il nome del file attualmente in riproduzione al server.",
+    "filesize-privacy-tooltip" : u"Modalità privacy per inviare la dimensione del file attualmente in riproduzione al server.",
+    "privacy-sendraw-tooltip" : u"Invia questa informazione senza offuscamento. Questa è l'impostazione predefinita per la maggior parte delle funzionalità.",
+    "privacy-sendhashed-tooltip" : u"Invia una versione criptata dell'informazione, rendendola meno visibile agli altri client.",
+    "privacy-dontsend-tooltip" : u"Non inviare questa informazione al server. Ciò garantisce massima privacy.",
+    "checkforupdatesautomatically-tooltip" : u"Controlla regolarmente la presenza di nuove versioni di Syncplay.",
+    "slowondesync-tooltip" : u"Riduce temporaneamente il rateo di riproduzione quando c'è bisogno di sincronizzarti con gli altri spettatori. Non supportato su MPC-HC/BE.",
+    "dontslowdownwithme-tooltip" : u"Gli altri utenti non vengono rallentati o riavvolti se stai laggando. Utile per i gestori della stanza.",
+    "pauseonleave-tooltip" : u"Mette in pausa la riproduzione se vieni disconnesso o se qualcuno lascia la stanza.",
+    "readyatstart-tooltip" : u"Imposta il tuo stato su 'pronto' all'avvio (in caso contrario, sarai su 'non pronto' fintanto che non cambierai il tuo stato)",
+    "forceguiprompt-tooltip" : u"Il dialogo di configurazione non viene mostrato quando apri un file con Syncplay.", # (Inverted)
+    "nostore-tooltip" : u"Avvia Syncplay con la configurazione scelta, ma non salva permanentemente le impostazioni.", # (Inverted)
+    "rewindondesync-tooltip" : u"Torna indietro quando necessario per ristabilire la sincronizzazione. Disabilitare quest'opzione può causare gravi problemi di sincronizzazione!",
+    "fastforwardondesync-tooltip" : u"Avanza rapidamente quando non sei sincronizzato col gestore della stanza (o la tua posizione supposta se 'Non rallentare o riavvolgere gli altri utenti' è abilitato).",
+    "showosd-tooltip" : u"Invia i messaggi di Syncplay all'OSD del media player.",
+    "showosdwarnings-tooltip" : u"Mostra gli avvisi in caso di riproduzione di: un file differente, unico utente nella stanza, utenti non pronti, etc.",
+    "showsameroomosd-tooltip" : u"Mostra le notifiche OSD per gli eventi relativi alla stanza in cui si trova l'utente.",
+    "shownoncontrollerosd-tooltip" : u"Mostra le notifiche OSD per gli eventi relativi ai non operatori presenti nelle stanze gestite.",
+    "showdifferentroomosd-tooltip" : u"Mostra le notifiche OSD per gli eventi relativi alla stanza in cui l'utente non si trova.",
+    "showslowdownosd-tooltip" : u"Mostra le notifiche di rallentamento / inversione in caso di differenza temporale.",
+    "showdurationnotification-tooltip" : u"Utile quando manca un segmento di un file multiparte. Può risultare in falsi positivi.",
+    "language-tooltip" : u"Lingua da utilizzare in Syncplay.",
+    "unpause-always-tooltip" : u"Se riprendi la riproduzione il tuo stato cambia in 'pronto' e la pausa viene interrotta, piuttosto che impostarti solo su pronto.",
+    "unpause-ifalreadyready-tooltip" : u"Se riprendi la riproduzione quando non sei 'pronto', verrai impostato su pronto - riprendi la riproduzione ancora una volta per uscire dalla pausa.",
+    "unpause-ifothersready-tooltip" : u"Se riprendi la riproduzione quando non sei 'pronto' la pausa verrà interrotta solo se gli altri sono pronti.",
+    "unpause-ifminusersready-tooltip" : u"Se riprendi la riproduzione quando non sei 'pronto', la pausa verrà interrotta solo se un numero minimo di utenti è 'pronto'.",
+    "trusteddomains-arguments-tooltip" : u"Domini verso cui è possibile collegarsi automaticamente quando le playlist condivise sono abilitate.",
 
-    "chatinputenabled-tooltip" : u"Enable chat input in mpv (press enter to chat, enter to send, escape to cancel)",
-    "chatdirectinput-tooltip" : u"Skip having to press 'enter' to go into chat input mode in mpv. Press TAB in mpv to temporarily disable this feature.",
-    "font-label-tooltip" : u"Font used for when entering chat messages in mpv. Client-side only, so doesn't affect what other see.",
-    "set-input-font-tooltip" : u"Font family used for when entering chat messages in mpv. Client-side only, so doesn't affect what other see.",
-    "set-input-colour-tooltip" : u"Font colour used for when entering chat messages in mpv. Client-side only, so doesn't affect what other see.",
-    "chatinputposition-tooltip" : u"Location in mpv where chat input text will appear when you press enter and type.",
-    "chatinputposition-top-tooltip" : u"Place chat input at top of mpv window.",
-    "chatinputposition-middle-tooltip" : u"Place chat input in dead centre of mpv window.",
-    "chatinputposition-bottom-tooltip" : u"Place chat input at bottom of mpv window.",
-    "chatoutputenabled-tooltip": u"Show chat messages in OSD (if supported by media player).",
-    "font-output-label-tooltip": u"Chat output font.",
-    "set-output-font-tooltip": u"Font used for when displaying chat messages.",
-    "chatoutputmode-tooltip": u"How chat messages are displayed.",
-    "chatoutputmode-chatroom-tooltip": u"Display new lines of chat directly below previous line.",
-    "chatoutputmode-scrolling-tooltip": u"Scroll chat text from right to left.",
+    "chatinputenabled-tooltip" : u"Abilita l'input della chat in mpv (premi Invio per chattare, per inviare ed escape per cancellare)",
+    "chatdirectinput-tooltip" : u"Evita di dover premere Invio per aprire l'input della chat in mpv. Premi TAB in mpv per disabilitare temporaneamente questa feature.",
+    "font-label-tooltip" : u"Font usato nell'input della chat in mpv. Non influenza cosa vedono gli altri, vale solo per te.",
+    "set-input-font-tooltip" : u"Font usato nell'input della chat in mpv. Non influenza cosa vedono gli altri, vale solo per te.",
+    "set-input-colour-tooltip" : u"Colore del font usato nell'input della chat in mpv. Non influenza cosa vedono gli altri, vale solo per te.",
+    "chatinputposition-tooltip" : u"Posizione dell'input della chat in mpv quando premi Invio.",
+    "chatinputposition-top-tooltip" : u"Posiziona l'input della chat in cima alla finestra di mpv.",
+    "chatinputposition-middle-tooltip" : u"Posizione l'input della chat al centro della finestra di mpv.",
+    "chatinputposition-bottom-tooltip" : u"Posiziona l'input della chat in basso alla finestra di mpv.",
+    "chatoutputenabled-tooltip": u"Mostra i messaggi di chat nell'OSD (se supportato dal media player).",
+    "font-output-label-tooltip": u"Font dell'output della chat.",
+    "set-output-font-tooltip": u"Font usato per mostrare i messaggi di chat.",
+    "chatoutputmode-tooltip": u"Come sono mostrati i messaggi di chat.",
+    "chatoutputmode-chatroom-tooltip": u"Mostra i nuovi messaggi di chat al di sotto di quelli precedenti.",
+    "chatoutputmode-scrolling-tooltip": u"Scrolla il testo della chat da destra a sinistra.",
 
-    "help-tooltip" : u"Opens the Syncplay.pl user guide.",
-    "reset-tooltip" : u"Reset all settings to the default configuration.",
-    "update-server-list-tooltip" : u"Connect to syncplay.pl to update list of public servers.",
+    "help-tooltip" : u"Apri la guida utente su Syncplay.pl.",
+    "reset-tooltip" : u"Resetta tutte le impostazioni.",
+    "update-server-list-tooltip" : u"Si collega a syncplay.pl per aggiornare la lista dei server pubblici.",
 
-    "joinroom-tooltip" : u"Leave current room and joins specified room.",
-    "seektime-msgbox-label" : u"Jump to specified time (in seconds / min:sec). Use +/- for relative seek.",
-    "ready-tooltip" : u"Indicates whether you are ready to watch.",
-    "autoplay-tooltip" : u"Auto-play when all users who have readiness indicator are ready and minimum user threshold met.",
-    "switch-to-file-tooltip" : u"Double click to switch to {}", # Filename
-    "sendmessage-tooltip" : u"Send message to room",
+    "joinroom-tooltip" : u"Abbandona la stanza attuale e entra in quella specificata.",
+    "seektime-msgbox-label" : u"Salta all'istante di tempo specificato (in secondi / min:sec). Usa +/- per una ricerca relativa.",
+    "ready-tooltip" : u"Indica quando sei pronto a guardare.",
+    "autoplay-tooltip" : u"Riproduzione automatica quado il numero minimo di utenti è su 'pronto'.",
+    "switch-to-file-tooltip" : u"Doppio click per passare a {}", # Filename
+    "sendmessage-tooltip" : u"Invia il messaggio alla stanza",
 
     # In-userlist notes (GUI)
     "differentsize-note" : u"Dimensione diversa!",
@@ -435,7 +435,7 @@ it = {
     "server-password-argument" : u'password del server',
     "server-isolate-room-argument" : u'le stanze devono essere isolate?',
     "server-salt-argument" : u"usare stringhe randomizzate per generare le password delle stanze gestite",
-    "server-disable-ready-argument" : u"disabilita la funzionalità prontezza", # TODO readiness needs a better translation
+    "server-disable-ready-argument" : u"disabilita la funzionalità 'pronto'",
     "server-motd-argument": u"percorso del file da cui verrà letto il motd",
     "server-chat-argument" : u"disabiliare la chat?",
     "server-chat-maxchars-argument" : u"Numero massimo di caratteri in un messaggio di chat (default è {})", # Default number of characters
